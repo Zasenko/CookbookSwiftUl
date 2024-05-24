@@ -14,6 +14,7 @@ struct ContentView: View {
             List {
                 chap1
                 chap2
+                chap3
             }
             .listStyle(.grouped)
             .navigationTitle("Continents and Countries")
@@ -68,6 +69,33 @@ struct ContentView: View {
             }
         } header: {
             Text("Scrollable Content")
+        }
+    }
+    
+    var chap3: some View {
+        Section {
+            NavigationLink("Lazy Stacks") {
+                LazyStacks()
+            }
+            NavigationLink("Lazy Grids") {
+                LazyGrids()
+            }
+            NavigationLink("ScrollView Readers") {
+                ScrollViewReaders()
+            }
+            NavigationLink("Expanding Lists") {
+                ExpandingLists()
+            }
+            NavigationLink("Disclosure Groups") {
+                DisclosureGroups()
+            }
+            NavigationLink("ToDoList for Widgets") {
+                ToDoList()
+            }
+            
+            
+        } header: {
+            Text("Advanced Components")
         }
     }
 }
