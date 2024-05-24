@@ -15,6 +15,7 @@
 		0A0AF1C52C00D04300FE8208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0AF1C42C00D04300FE8208 /* Assets.xcassets */; };
 		0A0AF1C92C00D04300FE8208 /* ToDoWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0A0AF1B92C00D04200FE8208 /* ToDoWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0A0AF1CF2C0107E900FE8208 /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0AF1B32C00CFB900FE8208 /* ToDoList.swift */; };
+		0A0AF1D22C0113B900FE8208 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0AF1D12C0113B900FE8208 /* PostView.swift */; };
 		0A8D46E82BFF549E007E1F3F /* Cookbook_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D46E72BFF549E007E1F3F /* Cookbook_SwiftUIApp.swift */; };
 		0A8D46EA2BFF549E007E1F3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8D46E92BFF549E007E1F3F /* ContentView.swift */; };
 		0A8D46EC2BFF549F007E1F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8D46EB2BFF549F007E1F3F /* Assets.xcassets */; };
@@ -71,6 +72,7 @@
 		0A0AF1C22C00D04200FE8208 /* ToDoWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoWidget.swift; sourceTree = "<group>"; };
 		0A0AF1C42C00D04300FE8208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A0AF1C62C00D04300FE8208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A0AF1D12C0113B900FE8208 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		0A8D46E42BFF549E007E1F3F /* Cookbook SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cookbook SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A8D46E72BFF549E007E1F3F /* Cookbook_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookbook_SwiftUIApp.swift; sourceTree = "<group>"; };
 		0A8D46E92BFF549E007E1F3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -135,6 +137,14 @@
 			path = ToDoWidget;
 			sourceTree = "<group>";
 		};
+		0A0AF1D02C01135900FE8208 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				0A0AF1D12C0113B900FE8208 /* PostView.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
 		0A8D46DB2BFF549E007E1F3F = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +172,7 @@
 				0A8D46F52BFF54C6007E1F3F /* BasicViews&Controls */,
 				0A8D470C2C009AA5007E1F3F /* ScrollableContent */,
 				0A8D47142C00B15A007E1F3F /* AdvancedComponents */,
+				0A0AF1D02C01135900FE8208 /* Preview */,
 				0A8D46EB2BFF549F007E1F3F /* Assets.xcassets */,
 				0A8D46ED2BFF549F007E1F3F /* Preview Content */,
 			);
@@ -333,6 +344,7 @@
 				0A8D471C2C00C3AB007E1F3F /* ExpandingLists.swift in Sources */,
 				0A8D47052BFF9638007E1F3F /* ViewBuilders.swift in Sources */,
 				0A8D471A2C00C179007E1F3F /* ScrollViewReaders.swift in Sources */,
+				0A0AF1D22C0113B900FE8208 /* PostView.swift in Sources */,
 				0A0AF1B42C00CFB900FE8208 /* ToDoList.swift in Sources */,
 				0A8D47072BFF96D6007E1F3F /* SFSymbols.swift in Sources */,
 				0A8D46F92BFF5506007E1F3F /* TheStacks.swift in Sources */,

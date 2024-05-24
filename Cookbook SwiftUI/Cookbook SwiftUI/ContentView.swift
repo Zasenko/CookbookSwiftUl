@@ -15,6 +15,7 @@ struct ContentView: View {
                 chap1
                 chap2
                 chap3
+                chap4
             }
             .listStyle(.grouped)
             .navigationTitle("Continents and Countries")
@@ -92,10 +93,24 @@ struct ContentView: View {
             NavigationLink("ToDoList for Widgets") {
                 ToDoList()
             }
-            
-            
         } header: {
             Text("Advanced Components")
+        }
+    }
+    
+    var chap4: some View {
+        Section {
+            NavigationLink("Scroll View") {
+                ScrollViews()
+            }
+            NavigationLink("Static List") {
+                StaticList()
+            }
+            NavigationLink("Searchable List") {
+                SearchableList()
+            }
+        } header: {
+            Text("Preview")
         }
     }
 }
