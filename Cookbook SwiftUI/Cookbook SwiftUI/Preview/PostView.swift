@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct PostView: View {
-    
+        
     var title: String
     var text: String
     var imageName: String

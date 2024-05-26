@@ -16,6 +16,7 @@ struct ContentView: View {
                 chap2
                 chap3
                 chap4
+                chap5
             }
             .listStyle(.grouped)
             .navigationTitle("Continents and Countries")
@@ -113,6 +114,26 @@ struct ContentView: View {
             Text("Preview")
         }
     }
+    
+    var chap5: some View {
+        Section {
+            NavigationLink("Sign Up View") {
+                SignUpView()
+            }
+            NavigationLink("Focus And Submit") {
+                FocusAndSubmit()
+            }
+            NavigationLink("Multi Column Table") {
+                MultiColumnTable()
+            }
+            NavigationLink("Two Dimensional Layout") {
+                TwoDimensionalLayout()
+            }
+        } header: {
+            Text("New Components and Grouping Views with Container Views")
+        }
+    }
+    
 }
 
 #Preview {
