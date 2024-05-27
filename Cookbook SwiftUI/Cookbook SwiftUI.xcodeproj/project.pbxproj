@@ -63,6 +63,11 @@
 		0AAEF8712C0489F9004DE141 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEF8702C0489F9004DE141 /* Counter.swift */; };
 		0AAEF8752C048BC0004DE141 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEF8742C048BC0004DE141 /* MusicPlayer.swift */; };
 		0AAEF8772C048EB1004DE141 /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEF8762C048EB1004DE141 /* Reminders.swift */; };
+		0AAEF87A2C04974A004DE141 /* CombineCoreLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEF8792C04974A004DE141 /* CombineCoreLocationView.swift */; };
+		0AAEF87C2C0497A5004DE141 /* CombineLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEF87B2C0497A5004DE141 /* CombineLocationManager.swift */; };
+		0AAEF87F2C049821004DE141 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEF87E2C049821004DE141 /* LocationViewModel.swift */; };
+		0AB2A0CA2C049C4600D05FC8 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB2A0C92C049C4600D05FC8 /* StopWatch.swift */; };
+		0AB2A0CC2C049ED500D05FC8 /* FormValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB2A0CB2C049ED500D05FC8 /* FormValidation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +152,11 @@
 		0AAEF8702C0489F9004DE141 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 		0AAEF8742C048BC0004DE141 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
 		0AAEF8762C048EB1004DE141 /* Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminders.swift; sourceTree = "<group>"; };
+		0AAEF8792C04974A004DE141 /* CombineCoreLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCoreLocationView.swift; sourceTree = "<group>"; };
+		0AAEF87B2C0497A5004DE141 /* CombineLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLocationManager.swift; sourceTree = "<group>"; };
+		0AAEF87E2C049821004DE141 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		0AB2A0C92C049C4600D05FC8 /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
+		0AB2A0CB2C049ED500D05FC8 /* FormValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +240,7 @@
 				0AAEF84F2C0466B6004DE141 /* Animations */,
 				0AAEF8682C04841B004DE141 /* DrivingData */,
 				0A8D46EB2BFF549F007E1F3F /* Assets.xcassets */,
+				0AAEF8782C049338004DE141 /* Combine */,
 				0A8D46ED2BFF549F007E1F3F /* Preview Content */,
 			);
 			path = "Cookbook SwiftUI";
@@ -340,6 +351,26 @@
 			children = (
 				0AAEF86B2C0485D4004DE141 /* SwiftUICoreLocation.swift */,
 				0AAEF86E2C048662004DE141 /* LocationManager.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		0AAEF8782C049338004DE141 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				0AAEF87D2C049805004DE141 /* Location */,
+				0AB2A0C92C049C4600D05FC8 /* StopWatch.swift */,
+				0AB2A0CB2C049ED500D05FC8 /* FormValidation.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		0AAEF87D2C049805004DE141 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				0AAEF8792C04974A004DE141 /* CombineCoreLocationView.swift */,
+				0AAEF87B2C0497A5004DE141 /* CombineLocationManager.swift */,
+				0AAEF87E2C049821004DE141 /* LocationViewModel.swift */,
 			);
 			path = Location;
 			sourceTree = "<group>";
@@ -455,9 +486,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB2A0CA2C049C4600D05FC8 /* StopWatch.swift in Sources */,
 				0A8F59B82C0320DC00C9BBC8 /* FocusAndSubmit.swift in Sources */,
+				0AB2A0CC2C049ED500D05FC8 /* FormValidation.swift in Sources */,
 				0AAEF8772C048EB1004DE141 /* Reminders.swift in Sources */,
 				0AAEF8572C04757A004DE141 /* DelayedAnimations.swift in Sources */,
+				0AAEF87F2C049821004DE141 /* LocationViewModel.swift in Sources */,
 				0A8D46FF2BFF6A62007E1F3F /* Buttons.swift in Sources */,
 				0AAEF8552C0474C2004DE141 /* BannerWithASpringAnimation.swift in Sources */,
 				0A8D47102C009EA2007E1F3F /* StaticList.swift in Sources */,
@@ -473,6 +507,7 @@
 				0A8D471A2C00C179007E1F3F /* ScrollViewReaders.swift in Sources */,
 				0A0AF1D22C0113B900FE8208 /* PostView.swift in Sources */,
 				0AAEF8592C047631004DE141 /* DelayedButtonsAnimations.swift in Sources */,
+				0AAEF87A2C04974A004DE141 /* CombineCoreLocationView.swift in Sources */,
 				0A0AF1B42C00CFB900FE8208 /* ToDoList.swift in Sources */,
 				0A8F59C12C039FD500C9BBC8 /* ModernNavigation.swift in Sources */,
 				0A8F59BA2C03221E00C9BBC8 /* MultiColumnTable.swift in Sources */,
@@ -484,6 +519,7 @@
 				0AAEF8632C047BC3004DE141 /* HeroViewTransition.swift in Sources */,
 				0A8D46FB2BFF68DD007E1F3F /* FormattedText.swift in Sources */,
 				0AAEF86C2C0485D4004DE141 /* SwiftUICoreLocation.swift in Sources */,
+				0AAEF87C2C0497A5004DE141 /* CombineLocationManager.swift in Sources */,
 				0AAEF8752C048BC0004DE141 /* MusicPlayer.swift in Sources */,
 				0A8D47032BFF956C007E1F3F /* ViewModifiers.swift in Sources */,
 				0A8D46EA2BFF549E007E1F3F /* ContentView.swift in Sources */,

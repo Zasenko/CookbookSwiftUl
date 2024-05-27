@@ -59,12 +59,12 @@ extension Optional where Wrapped == CLLocation {
         guard let latitude = self?.coordinate.latitude else { 
             return "-"
         }
-        return String(format: "%.3f", latitude)
+        return String(format: "%.4f", latitude)
     }
     var longitudeDescription: String {
         guard let longitude = self?.coordinate.longitude else {
             return "-"
         }
-        return String(format: "%.3f", longitude)
+        return String(format: "%.4f", longitude)
     }
 }

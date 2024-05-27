@@ -19,6 +19,8 @@ struct ContentView: View {
                 chap5
                 chap7
                 chap9
+                chap10
+                chap11
             }
             .listStyle(.grouped)
         }
@@ -219,7 +221,21 @@ struct ContentView: View {
             Text("Driving SwiftUI with Data")
         }
     }
-    
+    var chap11: some View {
+        Section {
+            NavigationLink("Combine CoreLocation") {
+                CombineCoreLocationView()
+            }
+            NavigationLink("StopWatch") {
+                StopWatch()
+            }
+//            NavigationLink("FormValidation") {
+//                FormValidation()
+//            }
+        } header: {
+            Text("Driving SwiftUI with Combine")
+        }
+    }
 }
 
 #Preview {
