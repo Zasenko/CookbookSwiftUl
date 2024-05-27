@@ -191,12 +191,34 @@ struct ContentView: View {
             NavigationLink("Swipeable Cards") {
                 SwipeableCards()
             }
-            
         } header: {
             Text("Animating")
         }
     }
     
+    var chap10: some View {
+        Section {
+            NavigationLink("Static Todo List") {
+                StaticTodoList()
+            }
+            NavigationLink("CoreLocation") {
+                SwiftUICoreLocation(locationManager: LocationManager())
+            }
+            NavigationLink("Counter") {
+                Counter()
+            }
+            NavigationLink("MusicPlayer") {
+                MusicPlayerView()
+            }
+            NavigationLink("Reminders") {
+                Reminders()
+            }
+            
+            
+        } header: {
+            Text("Driving SwiftUI with Data")
+        }
+    }
     
 }
 

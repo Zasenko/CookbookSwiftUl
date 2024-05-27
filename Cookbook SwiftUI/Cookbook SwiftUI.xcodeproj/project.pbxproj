@@ -57,6 +57,12 @@
 		0AAEF8632C047BC3004DE141 /* HeroViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEF8622C047BC3004DE141 /* HeroViewTransition.swift */; };
 		0AAEF8652C047E09004DE141 /* StretchableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEF8642C047E09004DE141 /* StretchableHeader.swift */; };
 		0AAEF8672C048019004DE141 /* SwipeableCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEF8662C048019004DE141 /* SwipeableCards.swift */; };
+		0AAEF86A2C04844B004DE141 /* StaticTodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEF8692C04844B004DE141 /* StaticTodoList.swift */; };
+		0AAEF86C2C0485D4004DE141 /* SwiftUICoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEF86B2C0485D4004DE141 /* SwiftUICoreLocation.swift */; };
+		0AAEF86F2C048662004DE141 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEF86E2C048662004DE141 /* LocationManager.swift */; };
+		0AAEF8712C0489F9004DE141 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEF8702C0489F9004DE141 /* Counter.swift */; };
+		0AAEF8752C048BC0004DE141 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEF8742C048BC0004DE141 /* MusicPlayer.swift */; };
+		0AAEF8772C048EB1004DE141 /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEF8762C048EB1004DE141 /* Reminders.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,6 +141,12 @@
 		0AAEF8622C047BC3004DE141 /* HeroViewTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewTransition.swift; sourceTree = "<group>"; };
 		0AAEF8642C047E09004DE141 /* StretchableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchableHeader.swift; sourceTree = "<group>"; };
 		0AAEF8662C048019004DE141 /* SwipeableCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableCards.swift; sourceTree = "<group>"; };
+		0AAEF8692C04844B004DE141 /* StaticTodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTodoList.swift; sourceTree = "<group>"; };
+		0AAEF86B2C0485D4004DE141 /* SwiftUICoreLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICoreLocation.swift; sourceTree = "<group>"; };
+		0AAEF86E2C048662004DE141 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		0AAEF8702C0489F9004DE141 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		0AAEF8742C048BC0004DE141 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		0AAEF8762C048EB1004DE141 /* Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminders.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +228,7 @@
 				0A8F59B22C031E8F00C9BBC8 /* GroupingViews */,
 				0A8F59BD2C039CB400C9BBC8 /* NavigationContainers */,
 				0AAEF84F2C0466B6004DE141 /* Animations */,
+				0AAEF8682C04841B004DE141 /* DrivingData */,
 				0A8D46EB2BFF549F007E1F3F /* Assets.xcassets */,
 				0A8D46ED2BFF549F007E1F3F /* Preview Content */,
 			);
@@ -308,6 +321,27 @@
 				0AAEF8662C048019004DE141 /* SwipeableCards.swift */,
 			);
 			path = Animations;
+			sourceTree = "<group>";
+		};
+		0AAEF8682C04841B004DE141 /* DrivingData */ = {
+			isa = PBXGroup;
+			children = (
+				0AAEF8692C04844B004DE141 /* StaticTodoList.swift */,
+				0AAEF8702C0489F9004DE141 /* Counter.swift */,
+				0AAEF8742C048BC0004DE141 /* MusicPlayer.swift */,
+				0AAEF8762C048EB1004DE141 /* Reminders.swift */,
+				0AAEF86D2C048656004DE141 /* Location */,
+			);
+			path = DrivingData;
+			sourceTree = "<group>";
+		};
+		0AAEF86D2C048656004DE141 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				0AAEF86B2C0485D4004DE141 /* SwiftUICoreLocation.swift */,
+				0AAEF86E2C048662004DE141 /* LocationManager.swift */,
+			);
+			path = Location;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,16 +456,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A8F59B82C0320DC00C9BBC8 /* FocusAndSubmit.swift in Sources */,
+				0AAEF8772C048EB1004DE141 /* Reminders.swift in Sources */,
 				0AAEF8572C04757A004DE141 /* DelayedAnimations.swift in Sources */,
 				0A8D46FF2BFF6A62007E1F3F /* Buttons.swift in Sources */,
 				0AAEF8552C0474C2004DE141 /* BannerWithASpringAnimation.swift in Sources */,
 				0A8D47102C009EA2007E1F3F /* StaticList.swift in Sources */,
+				0AAEF8712C0489F9004DE141 /* Counter.swift in Sources */,
 				0A8D470E2C009AEF007E1F3F /* ScrollViews.swift in Sources */,
 				0A8D47182C00B7C0007E1F3F /* LazyGrids.swift in Sources */,
 				0AAEF8512C0466CD004DE141 /* BasicAnimations.swift in Sources */,
 				0A8F59BF2C039CF700C9BBC8 /* SimpleNavigation.swift in Sources */,
 				0A8D471C2C00C3AB007E1F3F /* ExpandingLists.swift in Sources */,
 				0AAEF85F2C0479D8004DE141 /* CustomAnimations.swift in Sources */,
+				0AAEF86A2C04844B004DE141 /* StaticTodoList.swift in Sources */,
 				0A8D47052BFF9638007E1F3F /* ViewBuilders.swift in Sources */,
 				0A8D471A2C00C179007E1F3F /* ScrollViewReaders.swift in Sources */,
 				0A0AF1D22C0113B900FE8208 /* PostView.swift in Sources */,
@@ -446,6 +483,8 @@
 				0A8D470B2BFF97F8007E1F3F /* MoreViewsAndControls.swift in Sources */,
 				0AAEF8632C047BC3004DE141 /* HeroViewTransition.swift in Sources */,
 				0A8D46FB2BFF68DD007E1F3F /* FormattedText.swift in Sources */,
+				0AAEF86C2C0485D4004DE141 /* SwiftUICoreLocation.swift in Sources */,
+				0AAEF8752C048BC0004DE141 /* MusicPlayer.swift in Sources */,
 				0A8D47032BFF956C007E1F3F /* ViewModifiers.swift in Sources */,
 				0A8D46EA2BFF549E007E1F3F /* ContentView.swift in Sources */,
 				0AAEF85D2C047871004DE141 /* ChainedAnimations.swift in Sources */,
@@ -455,6 +494,7 @@
 				0AAEF8612C047ACD004DE141 /* CustomViewTransition.swift in Sources */,
 				0A8D47132C00A63A007E1F3F /* SearchableList.swift in Sources */,
 				0A8D47012BFF8F69007E1F3F /* Pickers.swift in Sources */,
+				0AAEF86F2C048662004DE141 /* LocationManager.swift in Sources */,
 				0AAEF8532C046C21004DE141 /* AnimateTriangleShape.swift in Sources */,
 				0A8D46E82BFF549E007E1F3F /* Cookbook_SwiftUIApp.swift in Sources */,
 				0AAEF8652C047E09004DE141 /* StretchableHeader.swift in Sources */,
@@ -661,6 +701,7 @@
 				DEVELOPMENT_TEAM = SK7334S258;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Enable Location Services pleace";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -691,6 +732,7 @@
 				DEVELOPMENT_TEAM = SK7334S258;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Enable Location Services pleace";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
