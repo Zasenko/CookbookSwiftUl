@@ -22,6 +22,7 @@ struct ContentView: View {
                 chap10
                 chap11
                 chap12
+                chap14
             }
             .listStyle(.grouped)
         }
@@ -250,6 +251,18 @@ struct ContentView: View {
         }
     }
     
+    var chap14: some View {
+        Section {
+            NavigationLink("SwiftUI CoreData Stack") {
+                SwiftUICoreDataStack()
+            }
+            NavigationLink("Infinite Scrolling") {
+                InfiniteScrolling()
+            }
+        } header: {
+            Text("Data")
+        }
+    }
 }
 
 #Preview {

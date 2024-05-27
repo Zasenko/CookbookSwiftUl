@@ -70,6 +70,9 @@
 		0AB2A0CC2C049ED500D05FC8 /* FormValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB2A0CB2C049ED500D05FC8 /* FormValidation.swift */; };
 		0AB2A0CF2C04A79700D05FC8 /* AsyncAwaitSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB2A0CE2C04A79700D05FC8 /* AsyncAwaitSwiftUI.swift */; };
 		0AB2A0D12C04B0C400D05FC8 /* InfiniteScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB2A0D02C04B0C400D05FC8 /* InfiniteScrolling.swift */; };
+		0AB2A0D42C04BB7B00D05FC8 /* SwiftUICoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB2A0D32C04BB7B00D05FC8 /* SwiftUICoreDataStack.swift */; };
+		0AB2A0D72C04BB9900D05FC8 /* CoreDataStack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AB2A0D52C04BB9900D05FC8 /* CoreDataStack.xcdatamodeld */; };
+		0AB2A0D92C04BBB500D05FC8 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB2A0D82C04BBB500D05FC8 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,6 +164,9 @@
 		0AB2A0CB2C049ED500D05FC8 /* FormValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidation.swift; sourceTree = "<group>"; };
 		0AB2A0CE2C04A79700D05FC8 /* AsyncAwaitSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitSwiftUI.swift; sourceTree = "<group>"; };
 		0AB2A0D02C04B0C400D05FC8 /* InfiniteScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteScrolling.swift; sourceTree = "<group>"; };
+		0AB2A0D32C04BB7B00D05FC8 /* SwiftUICoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICoreDataStack.swift; sourceTree = "<group>"; };
+		0AB2A0D62C04BB9900D05FC8 /* CoreDataStack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataStack.xcdatamodel; sourceTree = "<group>"; };
+		0AB2A0D82C04BBB500D05FC8 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +251,7 @@
 				0AAEF8682C04841B004DE141 /* DrivingData */,
 				0AAEF8782C049338004DE141 /* Combine */,
 				0AB2A0CD2C04A77A00D05FC8 /* Concurrency */,
+				0AB2A0D22C04BB3900D05FC8 /* Data */,
 				0A8D46EB2BFF549F007E1F3F /* Assets.xcassets */,
 				0A8D46ED2BFF549F007E1F3F /* Preview Content */,
 			);
@@ -389,6 +396,16 @@
 			path = Concurrency;
 			sourceTree = "<group>";
 		};
+		0AB2A0D22C04BB3900D05FC8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0AB2A0D32C04BB7B00D05FC8 /* SwiftUICoreDataStack.swift */,
+				0AB2A0D82C04BBB500D05FC8 /* CoreDataStack.swift */,
+				0AB2A0D52C04BB9900D05FC8 /* CoreDataStack.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -512,12 +529,14 @@
 				0AAEF8712C0489F9004DE141 /* Counter.swift in Sources */,
 				0A8D470E2C009AEF007E1F3F /* ScrollViews.swift in Sources */,
 				0A8D47182C00B7C0007E1F3F /* LazyGrids.swift in Sources */,
+				0AB2A0D42C04BB7B00D05FC8 /* SwiftUICoreDataStack.swift in Sources */,
 				0AAEF8512C0466CD004DE141 /* BasicAnimations.swift in Sources */,
 				0A8F59BF2C039CF700C9BBC8 /* SimpleNavigation.swift in Sources */,
 				0A8D471C2C00C3AB007E1F3F /* ExpandingLists.swift in Sources */,
 				0AB2A0CF2C04A79700D05FC8 /* AsyncAwaitSwiftUI.swift in Sources */,
 				0AAEF85F2C0479D8004DE141 /* CustomAnimations.swift in Sources */,
 				0AB2A0D12C04B0C400D05FC8 /* InfiniteScrolling.swift in Sources */,
+				0AB2A0D72C04BB9900D05FC8 /* CoreDataStack.xcdatamodeld in Sources */,
 				0AAEF86A2C04844B004DE141 /* StaticTodoList.swift in Sources */,
 				0A8D47052BFF9638007E1F3F /* ViewBuilders.swift in Sources */,
 				0A8D471A2C00C179007E1F3F /* ScrollViewReaders.swift in Sources */,
@@ -525,6 +544,7 @@
 				0AAEF8592C047631004DE141 /* DelayedButtonsAnimations.swift in Sources */,
 				0AAEF87A2C04974A004DE141 /* CombineCoreLocationView.swift in Sources */,
 				0A0AF1B42C00CFB900FE8208 /* ToDoList.swift in Sources */,
+				0AB2A0D92C04BBB500D05FC8 /* CoreDataStack.swift in Sources */,
 				0A8F59C12C039FD500C9BBC8 /* ModernNavigation.swift in Sources */,
 				0A8F59BA2C03221E00C9BBC8 /* MultiColumnTable.swift in Sources */,
 				0A8D47072BFF96D6007E1F3F /* SFSymbols.swift in Sources */,
@@ -834,6 +854,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0AB2A0D52C04BB9900D05FC8 /* CoreDataStack.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0AB2A0D62C04BB9900D05FC8 /* CoreDataStack.xcdatamodel */,
+			);
+			currentVersion = 0AB2A0D62C04BB9900D05FC8 /* CoreDataStack.xcdatamodel */;
+			name = CoreDataStack.xcdatamodeld;
+			path = "/Users/dmitry/Projects/Learning Projects/CookbookSwiftUl/Cookbook SwiftUI/Cookbook SwiftUI/Data/CoreDataStack.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0A8D46DC2BFF549E007E1F3F /* Project object */;
 }
