@@ -41,6 +41,10 @@
 		0A8F59B82C0320DC00C9BBC8 /* FocusAndSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F59B72C0320DC00C9BBC8 /* FocusAndSubmit.swift */; };
 		0A8F59BA2C03221E00C9BBC8 /* MultiColumnTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F59B92C03221E00C9BBC8 /* MultiColumnTable.swift */; };
 		0A8F59BC2C0337C300C9BBC8 /* TwoDimensionalLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F59BB2C0337C300C9BBC8 /* TwoDimensionalLayout.swift */; };
+		0A8F59BF2C039CF700C9BBC8 /* SimpleNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F59BE2C039CF700C9BBC8 /* SimpleNavigation.swift */; };
+		0A8F59C12C039FD500C9BBC8 /* ModernNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F59C02C039FD500C9BBC8 /* ModernNavigation.swift */; };
+		0AAEF84C2C045DE2004DE141 /* MultiColumnNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEF84B2C045DE2004DE141 /* MultiColumnNavigation.swift */; };
+		0AAEF84E2C0461BB004DE141 /* TabViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEF84D2C0461BB004DE141 /* TabViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +107,10 @@
 		0A8F59B72C0320DC00C9BBC8 /* FocusAndSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusAndSubmit.swift; sourceTree = "<group>"; };
 		0A8F59B92C03221E00C9BBC8 /* MultiColumnTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiColumnTable.swift; sourceTree = "<group>"; };
 		0A8F59BB2C0337C300C9BBC8 /* TwoDimensionalLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoDimensionalLayout.swift; sourceTree = "<group>"; };
+		0A8F59BE2C039CF700C9BBC8 /* SimpleNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNavigation.swift; sourceTree = "<group>"; };
+		0A8F59C02C039FD500C9BBC8 /* ModernNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernNavigation.swift; sourceTree = "<group>"; };
+		0AAEF84B2C045DE2004DE141 /* MultiColumnNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiColumnNavigation.swift; sourceTree = "<group>"; };
+		0AAEF84D2C0461BB004DE141 /* TabViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +190,7 @@
 				0A8D47142C00B15A007E1F3F /* AdvancedComponents */,
 				0A0AF1D02C01135900FE8208 /* Preview */,
 				0A8F59B22C031E8F00C9BBC8 /* GroupingViews */,
+				0A8F59BD2C039CB400C9BBC8 /* NavigationContainers */,
 				0A8D46EB2BFF549F007E1F3F /* Assets.xcassets */,
 				0A8D46ED2BFF549F007E1F3F /* Preview Content */,
 			);
@@ -244,6 +253,17 @@
 				0A8F59BB2C0337C300C9BBC8 /* TwoDimensionalLayout.swift */,
 			);
 			path = GroupingViews;
+			sourceTree = "<group>";
+		};
+		0A8F59BD2C039CB400C9BBC8 /* NavigationContainers */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F59BE2C039CF700C9BBC8 /* SimpleNavigation.swift */,
+				0A8F59C02C039FD500C9BBC8 /* ModernNavigation.swift */,
+				0AAEF84B2C045DE2004DE141 /* MultiColumnNavigation.swift */,
+				0AAEF84D2C0461BB004DE141 /* TabViews.swift */,
+			);
+			path = NavigationContainers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,13 +382,16 @@
 				0A8D47102C009EA2007E1F3F /* StaticList.swift in Sources */,
 				0A8D470E2C009AEF007E1F3F /* ScrollViews.swift in Sources */,
 				0A8D47182C00B7C0007E1F3F /* LazyGrids.swift in Sources */,
+				0A8F59BF2C039CF700C9BBC8 /* SimpleNavigation.swift in Sources */,
 				0A8D471C2C00C3AB007E1F3F /* ExpandingLists.swift in Sources */,
 				0A8D47052BFF9638007E1F3F /* ViewBuilders.swift in Sources */,
 				0A8D471A2C00C179007E1F3F /* ScrollViewReaders.swift in Sources */,
 				0A0AF1D22C0113B900FE8208 /* PostView.swift in Sources */,
 				0A0AF1B42C00CFB900FE8208 /* ToDoList.swift in Sources */,
+				0A8F59C12C039FD500C9BBC8 /* ModernNavigation.swift in Sources */,
 				0A8F59BA2C03221E00C9BBC8 /* MultiColumnTable.swift in Sources */,
 				0A8D47072BFF96D6007E1F3F /* SFSymbols.swift in Sources */,
+				0AAEF84E2C0461BB004DE141 /* TabViews.swift in Sources */,
 				0A8D46F92BFF5506007E1F3F /* TheStacks.swift in Sources */,
 				0A8F59BC2C0337C300C9BBC8 /* TwoDimensionalLayout.swift in Sources */,
 				0A8D470B2BFF97F8007E1F3F /* MoreViewsAndControls.swift in Sources */,
@@ -382,6 +405,7 @@
 				0A8D47012BFF8F69007E1F3F /* Pickers.swift in Sources */,
 				0A8D46E82BFF549E007E1F3F /* Cookbook_SwiftUIApp.swift in Sources */,
 				0A8D471E2C00C6C4007E1F3F /* DisclosureGroups.swift in Sources */,
+				0AAEF84C2C045DE2004DE141 /* MultiColumnNavigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,10 +17,9 @@ struct ContentView: View {
                 chap3
                 chap4
                 chap5
+                chap7
             }
             .listStyle(.grouped)
-            .navigationTitle("Continents and Countries")
-            .navigationBarTitleDisplayMode(.inline)
         }
     }
     
@@ -131,6 +130,27 @@ struct ContentView: View {
             }
         } header: {
             Text("New Components and Grouping Views with Container Views")
+        }
+    }
+    
+    var chap7: some View {
+        Section {
+            NavigationLink("Simple Navigation") {
+                SimpleNavigation()
+            }
+            NavigationLink("Modern Navigation") {
+                ModernNavigation()
+            }
+            NavigationLink("Multi-column Navigation") {
+                MultiColumnNavigation()
+            }
+            NavigationLink("TabViews") {
+                TabViews()
+            }
+            
+            
+        } header: {
+            Text("Navigation Containers")
         }
     }
     
