@@ -21,6 +21,7 @@ struct ContentView: View {
                 chap9
                 chap10
                 chap11
+                chap12
             }
             .listStyle(.grouped)
         }
@@ -236,6 +237,19 @@ struct ContentView: View {
             Text("Driving SwiftUI with Combine")
         }
     }
+    var chap12: some View {
+        Section {
+            NavigationLink("AsyncAwait") {
+                AsyncAwaitSwiftUI()
+            }
+            NavigationLink("Infinite Scrolling") {
+                InfiniteScrolling()
+            }
+        } header: {
+            Text("Concurrency")
+        }
+    }
+    
 }
 
 #Preview {
