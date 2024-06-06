@@ -13,6 +13,8 @@ struct PostView: View {
     var text: String
     var imageName: String
     
+    @Environment(\.colorScheme) var deviceColorScheme
+    
     var body: some View {
         GeometryReader { geometry in
             ScrollView {

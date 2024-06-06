@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    init() {
+        print("date: ", Date())
+    }
 
     var body: some View {
         NavigationStack {
@@ -23,6 +27,7 @@ struct ContentView: View {
                 chap11
                 chap12
                 chap14
+                chap100
             }
             .listStyle(.grouped)
         }
@@ -261,6 +266,16 @@ struct ContentView: View {
             }
         } header: {
             Text("Data")
+        }
+    }
+    
+    var chap100: some View {
+        Section {
+            NavigationLink("Pinch To Zoom") {
+                PinchToZoom()
+            }
+        } header: {
+            Text("Gesture")
         }
     }
 }
